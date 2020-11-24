@@ -125,8 +125,7 @@ function StartModal(props) {
     function getNickname(event) {
         const {value} = event.target;
         
-        if (nickname.length < 12)
-            setNickname(value);
+        setNickname(value.substring(0, 12));
     }
 
     function getKey(event) {
