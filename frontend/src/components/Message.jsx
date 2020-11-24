@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: "45%",
         textAlign: "right",
         "& p": {
-            wordBreak: "break-all"
+            wordBreak: "break-word"
         }
     },
 
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
         float: "left",
         maxWidth: "45%",
         "& p": {
-            wordBreak: "break-all"
+            wordBreak: "break-word"
         }
     },
 
