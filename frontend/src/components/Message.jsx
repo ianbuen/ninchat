@@ -6,9 +6,9 @@ const useStyles = makeStyles((theme) => ({
         background: "#333",
         color: "white",
         borderRadius: "2vw",
-        padding: "1.5vw",
+        padding: "1.25vw",
         float: "right",
-        maxWidth: "45%",
+        maxWidth: "40%",
         textAlign: "right",
         "& p": {
             wordBreak: "break-word"
@@ -19,9 +19,9 @@ const useStyles = makeStyles((theme) => ({
         background: "#eee",
         borderRadius: "2vw",
         border: "1px solid #0001",
-        padding: "1.5vw",
+        padding: "1.25vw",
         float: "left",
-        maxWidth: "45%",
+        maxWidth: "40%",
         "& p": {
             wordBreak: "break-word"
         }
