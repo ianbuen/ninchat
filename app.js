@@ -13,8 +13,8 @@ app.use(cors());
 
 
 // mongoose connection 
-const connOptions = { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true, useFindAndModify: false }
-mongoose.connect(process.env.DBPATH, connOptions); 
+mongoose.set('strictQuery', false);
+mongoose.connect(process.env.DBPATH); 
 
 
 console.clear();
