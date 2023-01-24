@@ -5,7 +5,7 @@ import Brightness1Icon from '@material-ui/icons/Brightness1';
 import MenuIcon from '@material-ui/icons/Menu';
 
 import axios from "axios";
-import _ from "lodash";
+// import _ from "lodash";
 
 const useStyles = makeStyles((theme) => ({
     
@@ -124,9 +124,9 @@ function Sidebar(props) {
         setDrawerOpen(!drawerOpen);
     }
 
-    function showUserCount() {
-        return (<Typography variant="h5" className={wow.count}>{"Users Online: " + listUsers.length}</Typography>);
-    }
+    // function showUserCount() {
+    //     return (<Typography variant="h5" className={wow.count}>{"Users Online: " + listUsers.length}</Typography>);
+    // }
 
     // retrieve list of online users    
     useEffect(() => {
